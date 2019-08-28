@@ -1,0 +1,90 @@
+
+License Codes Algorithms
+========================
+
+Copyright (C) 2003-2009 Giuliano Bertoletti & GBE32241 Software PR
+All rights reserved.
+
+
+License
+=======
+
+Compilation Copyright (c) 2003-2009 by Giuliano Bertoletti (the author 
+henceforth) and GBE32241 Software PR.  All rights reserved.
+
+This copyright applies to this software distribution package 
+as a compilation and also imply a copyright on every
+file in the package unless otherwise stated.
+
+The following files make an exception and are copyrighted by their 
+respective original authors (although small changes have been made):
+
+shs.c/.h/SHA.cpp - Peter C. Gutmann
+Blowfish.c/.h    - Paul Kocher
+
+Permission to use, copy, modify, and distribute this compilation for
+any purpose, including commercial applications, is hereby granted
+without fee, subject to the following restrictions:
+
+1. Any copy or modification of this compilation in any form, except
+in object code form as part of an application software, must include
+the above copyright notice and this license.
+
+2. Users of this software agree that any modification or extension
+they provide to the author will be considered public domain and not
+copyrighted unless it includes an explicit copyright notice.
+
+3. The author makes no warranty or representation that the operation of the
+software in this compilation will be error-free, and is under no
+obligation to provide any services, by way of maintenance, update, or
+otherwise.  
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ''AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT THE AUTHOR SHALL BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+4. Users will not use the author or any other contributor's name in any 
+publicity or advertising, without prior written consent in each case.
+
+5. Algorithms used by this software may be protected by patents.  
+It is users' responsibility to obtain the appropriate licenses before 
+using them.
+In particular the Quartz signature scheme and Hidden Field Equations 
+cryptosystems are patented algorithms and their use might not be free
+of charge (some patents could expire in year 2016, see below).
+
+6. If this compilation is used in object code form in an application
+software, acknowledgement of the author is not required but would be
+appreciated. The contribution of any useful modifications or extensions
+to the author is also appreciated.
+
+
+
+=======================================================================================
+
+HFE homepage (http://www.cryptosystem.net/hfe) reads:
+
+HFE has been patented by Jacques Patarin.
+The US patent is untitled ``Method for cryptographic communications'',
+number 5 790 675, issued on August 4th 98. It expires on July 24th 2016. 
+It belongs currently to Axalto, 36-38 rue de la Princessse, BP45, 78431 Louveciennes Cedex, France. 
+Entensions to this patent have been filed in many countries (Europe, US, Israel, Taiwan, etc..).
+
+=======================================================================================
+
+Notice: it's still user's responsibility to verify that the statements above
+        are correct and up to date.
+
+
+
+The author
+==========
+
+Giuliano Bertoletti
+gbe32241@libero.it

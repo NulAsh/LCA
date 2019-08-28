@@ -1,0 +1,89 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DRegZ"=..\DRegZ\DRegZ.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "JRegZ"=..\JRegZ\JRegZ.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "QDecZ"=..\QDecZ\QDecZ.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "QRegZ"=..\QRegZ\QRegZ.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DRegZ
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name QDecZ
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name QTestZ
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name JRegZ
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "QTestZ"=..\QTestZ\QTestZ.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

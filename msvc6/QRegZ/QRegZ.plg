@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JRegZ - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Giuliano\IMPOST~1\Temp\RSP2BD.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /I../../src/QRegZ /I../../src/DRegZ /I../../src/DRegZ/SDDecoder /I../../src/common /I../../src/JRegZ /c 
+"D:\Programmi\Microsoft Visual Studio\VC98\MyProjects\LCA\src\JRegZ\LicenseCode.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Giuliano\IMPOST~1\Temp\RSP2BD.tmp" 
+Creating temporary file "C:\DOCUME~1\Giuliano\IMPOST~1\Temp\RSP2BE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/JRegZ.pdb" /machine:I386 /out:"Release/JRegZ.exe" 
+".\Release\arc4.obj"
+".\Release\expoly.obj"
+".\Release\ExPolyHold.obj"
+".\Release\expolymod.obj"
+".\Release\ffpoly.obj"
+".\Release\fred103.obj"
+".\Release\Globals.obj"
+".\Release\jmain.obj"
+".\Release\JRegZ.obj"
+".\Release\karatsuba.obj"
+".\Release\LicenseCode.obj"
+".\Release\lintra.obj"
+".\Release\LNMatrix.obj"
+".\Release\LNPoly.obj"
+".\Release\MVTrap.obj"
+".\Release\osdepn.obj"
+".\Release\polyprint.obj"
+".\Release\pool.obj"
+".\Release\qmtx.obj"
+".\Release\quartzsig.obj"
+".\Release\quartztest.obj"
+".\Release\quartzver.obj"
+".\Release\RandPool.obj"
+".\Release\rootfind.obj"
+".\Release\SDVect.obj"
+".\Release\shs.obj"
+".\Release\StringGen.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Giuliano\IMPOST~1\Temp\RSP2BE.tmp"
+<h3>Output Window</h3>
+Compiling...
+LicenseCode.cpp
+Linking...
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+<h3>
+--------------------Configuration: QRegZ - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+QRegZ.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

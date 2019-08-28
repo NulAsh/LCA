@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DRegZ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2C5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /I../../src/QRegZ /I../../src/DRegZ /I../../src/DRegZ/SDDecoder /I../../src/common /c 
+"D:\VC2005Prjs\LCA\src\DRegZ\Blowfish.c"
+"D:\VC2005Prjs\LCA\src\DRegZ\crc32.c"
+"D:\VC2005Prjs\LCA\src\DRegZ\dzmain.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\FastKey.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\Globals.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\KeyPair.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\KeyRing.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\LNMatrix.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\LNPoly.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\mstub.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\RandPool.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\Remapper.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\SDCluster.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\SDMatrix.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\SDVect.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\SHA.cpp"
+"D:\VC2005Prjs\LCA\src\DRegZ\StringGen.cpp"
+"D:\VC2005Prjs\LCA\src\common\userio.c"
+"D:\VC2005Prjs\LCA\src\common\arc4.c"
+"D:\VC2005Prjs\LCA\src\common\ffpoly.c"
+"D:\VC2005Prjs\LCA\src\common\fred103.c"
+"D:\VC2005Prjs\LCA\src\common\lintra.c"
+"D:\VC2005Prjs\LCA\src\common\osdepn.c"
+"D:\VC2005Prjs\LCA\src\common\karatsuba.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2C5.tmp" 
+Creating temporary file "C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2C6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DRegZ.pdb" /debug /machine:I386 /out:"Debug/DRegZ.exe" /pdbtype:sept 
+.\Debug\Blowfish.obj
+.\Debug\crc32.obj
+.\Debug\dzmain.obj
+.\Debug\FastKey.obj
+.\Debug\Globals.obj
+.\Debug\KeyPair.obj
+.\Debug\KeyRing.obj
+.\Debug\LNMatrix.obj
+.\Debug\LNPoly.obj
+.\Debug\mstub.obj
+.\Debug\RandPool.obj
+.\Debug\Remapper.obj
+.\Debug\SDCluster.obj
+.\Debug\SDMatrix.obj
+.\Debug\SDVect.obj
+.\Debug\SHA.obj
+.\Debug\StringGen.obj
+.\Debug\userio.obj
+.\Debug\arc4.obj
+.\Debug\ffpoly.obj
+.\Debug\fred103.obj
+.\Debug\lintra.obj
+.\Debug\osdepn.obj
+.\Debug\karatsuba.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2C6.tmp"
+<h3>Output Window</h3>
+Compiling...
+Blowfish.c
+crc32.c
+Generating Code...
+Compiling...
+dzmain.cpp
+FastKey.cpp
+Globals.cpp
+KeyPair.cpp
+KeyRing.cpp
+LNMatrix.cpp
+LNPoly.cpp
+mstub.cpp
+RandPool.cpp
+Remapper.cpp
+SDCluster.cpp
+SDMatrix.cpp
+SDVect.cpp
+SHA.cpp
+StringGen.cpp
+Generating Code...
+Compiling...
+userio.c
+arc4.c
+ffpoly.c
+fred103.c
+lintra.c
+osdepn.c
+karatsuba.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DRegZ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

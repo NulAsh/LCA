@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QDecZ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2E1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /I../../src/QRegZ /I../../src/DRegZ /I../../src/DRegZ/SDDecoder /I../../src/common /c 
+"D:\VC2005Prjs\LCA\src\QRegZ\maindec.c"
+"D:\VC2005Prjs\LCA\src\common\arc4.c"
+"D:\VC2005Prjs\LCA\src\common\ffpoly.c"
+"D:\VC2005Prjs\LCA\src\common\fred103.c"
+"D:\VC2005Prjs\LCA\src\common\karatsuba.c"
+"D:\VC2005Prjs\LCA\src\common\lintra.c"
+"D:\VC2005Prjs\LCA\src\common\osdepn.c"
+"D:\VC2005Prjs\LCA\src\common\userio.c"
+"D:\VC2005Prjs\LCA\src\QRegZ\verystub.c"
+"D:\VC2005Prjs\LCA\src\QRegZ\decoder.c"
+"D:\VC2005Prjs\LCA\src\QRegZ\shs.c"
+"D:\VC2005Prjs\LCA\src\QRegZ\quartzver.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2E1.tmp" 
+Creating temporary file "C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2E2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/QDecZ.pdb" /debug /machine:I386 /out:"Debug/QDecZ.exe" /pdbtype:sept 
+.\Debug\maindec.obj
+.\Debug\arc4.obj
+.\Debug\ffpoly.obj
+.\Debug\fred103.obj
+.\Debug\karatsuba.obj
+.\Debug\lintra.obj
+.\Debug\osdepn.obj
+.\Debug\userio.obj
+.\Debug\verystub.obj
+.\Debug\decoder.obj
+.\Debug\shs.obj
+.\Debug\quartzver.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Giulio\IMPOST~1\Temp\RSP2E2.tmp"
+<h3>Output Window</h3>
+Compiling...
+maindec.c
+arc4.c
+ffpoly.c
+fred103.c
+karatsuba.c
+lintra.c
+osdepn.c
+userio.c
+verystub.c
+decoder.c
+shs.c
+quartzver.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+QDecZ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
